@@ -1,0 +1,550 @@
+:root {
+    --black-color: #1b1b1e;
+    --red-color: #96031a;
+    /* --yellow-color: #faa916; */
+    --yellow-color: #FD9D3E;
+    --white-color: #fbfffe;
+    /* --logo-font: 'Marck Script', cursive; */
+    --yellow-img-bg: #FD9D3E;
+    --logo-font: 'Knewave', cursive;
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 40px
+}
+
+/* Media Queries For Tabs */
+@media screen and (max-width:1900px) {
+    .container {
+        margin-inline: 72px;
+        /* padding-inline: var(--padding-inline-section); */
+        /* overflow: hidden; */
+    }
+
+    .about-section {
+        margin-bottom: -2%;
+    }
+
+    .about-us {
+        margin-inline: auto;
+    }
+
+    .about-content {
+        font-size: 28px;
+    }
+
+    .test-top-image {
+        margin-top: -6%;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    h1 {
+        font-size: 1.1em;
+    }
+
+    .left-side {
+        margin-top: -2%;
+    }
+
+    .hero-heading {
+        line-height: 3.4rem;
+    }
+
+    .hero-content {
+        margin-top: -4%;
+    }
+
+    .hero-content {
+        font-size: 0.4em;
+        font-weight: 350;
+    }
+
+    .cta-buttons {
+        margin-top: 1.6rem;
+    }
+
+    .menu-container {
+        max-width: 97vmax !important;
+        margin-inline: 18px;
+    }
+
+    .beverages-row2-container {
+        max-width: 56vmax;
+    }
+
+    .about-section {
+        margin-bottom: -32%;
+        gap: 0;
+    }
+
+    .about-us {
+        margin-left: 2%;
+    }
+
+    .about-content {
+        font-size: 25px;
+    }
+
+    .test-top-image {
+        margin-top: -6%;
+    }
+
+    .testimonial {
+        margin-bottom: 10%;
+    }
+
+    .site-logo {
+        margin-left: 3rem;
+        width: 32vw;
+        gap: 0;
+    }
+
+    .site-logo-words {
+        width: 19vw;
+        font-size: 4.2vw;
+    }
+
+    .pizza-logo-image {
+        width: 7vw;
+        margin-left: -3%;
+    }
+}
+
+/* Media Queries For Tabs */
+@media screen and (max-width:991px) {
+    h1 {
+        font-size: 1.1em;
+    }
+
+    .nav-toggle {
+        display: block;
+        margin-right: 111px;
+        margin-top: 9%;
+
+    }
+
+    .nav-toggle i {
+        font-size: 2.6vmax;
+        /* margin-top: 2%; */
+        margin-left: 230% !important;
+    }
+
+    nav {
+        height: 1%;
+        margin-top: -6%;
+    }
+
+    .main-nav {
+        overflow: initial;
+        height: 1%;
+    }
+
+    .nav-links {
+        position: absolute;
+        background-color: var(--yellow-color);
+        color: var(--white-color);
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links ul {
+        flex-direction: column;
+    }
+
+    .hero {
+        margin-top: -8%;
+        margin-bottom: -8%;
+    }
+
+    .hero-heading {
+        line-height: 3rem;
+    }
+
+    .cta-buttons {
+        margin-top: 1.4rem;
+    }
+
+    .left-side {
+        margin-top: -2%;
+        font-size: 44px;
+        flex-basis: 51%;
+    }
+
+    .right-side {
+        flex-basis: 45%;
+        margin-top: -3%;
+    }
+
+    .hero-content {
+        margin-top: -8%;
+    }
+
+    .menu-container {
+        max-width: 120vmax !important;
+        padding-inline: 1%;
+        margin-inline: 1.3%;
+    }
+
+    .beverages-row2-container {
+        max-width: 60vmax;
+    }
+
+    .test-top-image {
+        margin-top: -8%;
+    }
+
+    .test-header {
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+
+    .about-us {
+        margin-top: 4vmax;
+        flex-direction: column;
+        gap: 4vmax;
+        justify-content: center;
+        align-items: center;
+        margin-inline: auto;
+    }
+
+    .about-content {
+        width: 80%;
+        font-size: 27px;
+        font-weight: 200;
+    }
+
+    .about-pic-container {
+        width: 80%;
+    }
+
+    .about-section {
+        margin-bottom: 20% !important;
+    }
+
+    .menu-image {
+        width: 73%;
+    }
+
+    .site-logo{
+        margin-top: 6%;
+        margin-left: 3rem;
+    }
+
+}
+
+/* Media Queries For Large Phone Screens */
+@media screen and (max-width:767px) {
+    h1 {
+        font-size: 1.4em;
+    }
+
+    .container {
+        margin-inline: 24px;
+    }
+
+    .nav-toggle {
+        margin-right: 83px;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        height: 80vh;
+        margin-bottom: -9%;
+    }
+
+    .right-side {
+        margin-top: -5%;
+        width: 62%;
+    }
+
+    .left-side {
+        text-align: center;
+        font-size: 38px;
+        margin-top: -3%;
+    }
+
+    .hero-heading {
+        line-height: 3.0rem;
+    }
+
+    .hero-content {
+        margin-top: -5%;
+        font-weight: 400;
+        font-size: 0.4em;
+    }
+
+    .cta-buttons {
+        margin-top: 1rem;
+    }
+
+    .primary-cta{
+        font-size: 1rem;
+        padding-block: 1rem;
+    }
+
+    .secondary-cta{
+        font-size: 1rem;
+        padding-block: 1rem;
+    }
+
+    .features-card {
+        max-width: 47%;
+        font-size: 43px;
+    }
+
+    .menu-image {
+        width: 83% !important;
+    }
+
+    .menu-container {
+        max-width: 125vmax !important;
+        padding-inline: 1%;
+        margin-inline: 1%;
+    }
+
+    .menu-area {
+        flex-wrap: wrap;
+    }
+
+    .menu-row-menupage {
+        flex-wrap: wrap;
+        margin-left: 12%;
+        margin-right: -22%;
+    }
+
+    .menu-card {
+        width: 30% !important;
+    }
+
+    .beverages-row2-container {
+        max-width: 106vmax;
+    }
+
+    .test-top-image {
+        margin-top: -10%;
+    }
+
+    .about-section {
+        margin-bottom: 32% !important;
+    }
+
+    .about-us-header {
+        margin-top: 15% !important;
+        margin-bottom: 15%;
+    }
+
+    .about-us {
+        gap: 8vmax;
+    }
+
+    .about-pic-container {
+        width: 90%;
+    }
+
+    .landing-menu-container {
+        max-width: 95% !important;
+    }
+    
+    .testimonial .image {
+        width: 22%;
+    }
+
+    .sub-heading{
+        font-size: 1.3rem;
+    }
+    
+    .landing-menu-btn{
+        margin-bottom: 5%;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:602px) {
+    .test-top-image {
+        margin-top: -5%;
+    }
+
+    .test-header {
+        margin-bottom: 8%;
+        margin-top: 8%;
+    }
+
+    .hero {
+        margin-bottom: -4%;
+    }
+
+    .hero-heading {
+        margin-top: 0;
+    }
+
+    .cta-buttons {
+        margin-top: 0.4rem;
+    }
+
+    .site-logo{
+        margin-top: 8%;
+        width: 39vw;
+    }
+
+    .site-logo-words{
+        width: 28vw;
+        font-size: 6.2vw;
+    }
+
+    .pizza-logo-image{
+        width: 10vw;
+        margin-left: -3%;
+    }
+
+}
+
+@media screen and (max-width:479px) {
+
+    h1{
+        font-size: 1.4em;
+    }
+
+    /* h2{
+        font-size: 1.5rem;
+    } */
+    .container {
+        margin-inline: 20px;
+    }
+
+    .hero {
+        width: 100vw;
+    }
+
+    .right-side {
+        margin-top: -22%;
+        width: 70%;
+    }
+
+    .hero-heading {
+        line-height: 2.8rem;
+    }
+
+    .left-side {
+        margin-top: -7%;
+        font-size: 36px;
+    }
+
+    .hero-content{
+        font-size: 18px;
+    }
+
+    .cta-buttons {
+        margin-top: 1.5rem;
+    }
+
+    .features-area {
+        flex-direction: column;
+    }
+
+    .features-card {
+        max-width: 82%;
+        font-size: 43px;
+    }
+
+    .features-card img {
+        width: 48%;
+    }
+
+    .recipe-image {
+        width: 38% !important;
+    }
+
+    .menu-row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .menu-area {
+        flex-wrap: wrap;
+    }
+
+    .menu-card {
+        flex-basis: 32%;
+    }
+
+    .menu-tab-container {
+        max-width: 408px;
+    }
+
+    .menu-tab {
+        font-size: 1em;
+    }
+
+    .menu-row-menupage {
+        margin-left: -47%;
+        margin-right: -46%;
+    }
+
+    .about-section {
+        margin-bottom: 32% !important;
+    }
+
+    .landing-menu {
+        width: 70% !important;
+    }
+
+    .about-us-header {
+        margin-top: 15% !important;
+        margin-bottom: 15% !important;
+    }
+
+    .site-logo-words{
+        display: none;
+    }
+
+    .pizza-logo-image{
+        width: 15vw;
+    }
+
+    .landing-menu-btn{
+        margin-bottom: 8%;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+    .menu-tab-container {
+        max-width: 355px;
+        padding-inline: 1%;
+    }
+
+    .menu-tab {
+        font-size: 0.86em;
+    }
+
+    .test-top-image {
+        margin-top: -9%;
+    }
+
+    .landing-menu {
+        width: 90% !important;
+    }
+
+    .about-section {
+        margin-bottom: 1% !important;
+    }
+
+    .about-us {
+        margin-inline: 0 !important;
+        width: 100%;
+    }
+
+    .about-content {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,997 @@
+/* Poppins Font For Headings */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Anton&family=Baloo+Bhai+2:wght@800&family=Barlow+Condensed:wght@200&family=Combo&family=Lato&family=Lexend:wght@200;300;700&family=Livvic:wght@500&family=Nunito+Sans:wght@200&family=Open+Sans&family=Poppins:wght@400;500&family=Righteous&family=Roboto&family=Roboto+Condensed:wght@700&family=Yeon+Sung&display=swap');
+
+/* Roboto Font For h1 */
+  @import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Anton&family=Baloo+Bhai+2:wght@800&family=Barlow+Condensed:wght@200&family=Combo&family=Cormorant+Garamond&family=Josefin+Sans:ital,wght@1,700&family=Knewave&family=Lato&family=Lexend:wght@200;300;700&family=Libre+Franklin&family=Livvic:wght@500&family=Marck+Script&family=Nunito+Sans:wght@200&family=Open+Sans&family=Proza+Libre&family=Righteous&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&family=Work+Sans&display=swap');
+
+/* Logo Font */
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Anton&family=Baloo+Bhai+2:wght@800&family=Barlow+Condensed:wght@200&family=Combo&family=Lato&family=Lexend:wght@200;300;700&family=Livvic:wght@500&family=Marck+Script&family=Nunito+Sans:wght@200&family=Open+Sans&family=Righteous&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Anton&family=Baloo+Bhai+2:wght@800&family=Barlow+Condensed:wght@200&family=Combo&family=Knewave&family=Lato&family=Lexend:wght@200;300;700&family=Livvic:wght@500&family=Marck+Script&family=Nunito+Sans:wght@200&family=Open+Sans&family=Righteous&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap');
+
+ /* Paragraph font */
+  @import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Anton&family=Baloo+Bhai+2:wght@800&family=Barlow+Condensed:wght@200&family=Combo&family=Cormorant+Garamond&family=Knewave&family=Lato&family=Lexend:wght@200;300;700&family=Libre+Franklin&family=Livvic:wght@500&family=Marck+Script&family=Nunito+Sans:wght@200&family=Open+Sans&family=Proza+Libre&family=Righteous&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap');
+
+  /* subheading font */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Anton&family=Baloo+Bhai+2:wght@800&family=Barlow+Condensed:wght@200&family=Combo&family=Cormorant+Garamond&family=Josefin+Sans:ital,wght@1,700&family=Knewave&family=Lato&family=Lexend:wght@200;300;700&family=Libre+Franklin&family=Livvic:wght@500&family=Marck+Script&family=Nunito+Sans:wght@200&family=Open+Sans&family=Pacifico&family=Proza+Libre&family=Righteous&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&family=Work+Sans&display=swap');
+
+  /* Poppins Font */
+  @import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Anton&family=Baloo+Bhai+2:wght@800&family=Barlow+Condensed:wght@200&family=Combo&family=Cormorant+Garamond&family=Josefin+Sans:ital,wght@1,700&family=Knewave&family=Lato:wght@100;400&family=Lexend:wght@200;300;700&family=Libre+Franklin&family=Livvic:wght@500&family=Marck+Script&family=Nunito+Sans:wght@200&family=Open+Sans&family=Pacifico&family=Poppins:wght@200;500;600&family=Proza+Libre&family=Righteous&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&family=Work+Sans&display=swap');
+
+  /* Funky Button Font */
+  @import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Anton&family=Baloo+Bhai+2:wght@800&family=Barlow+Condensed:wght@200&family=Combo&family=Cormorant+Garamond&family=Josefin+Sans:ital,wght@1,700&family=Knewave&family=Lato:wght@100;400&family=Lexend:wght@200;300;700&family=Libre+Franklin&family=Lilita+One&family=Livvic:wght@500&family=Marck+Script&family=Nunito+Sans:wght@200&family=Open+Sans&family=Pacifico&family=Poppins:wght@200;500;600&family=Proza+Libre&family=Righteous&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&family=Work+Sans&display=swap');
+
+  /* Section Heading */
+  @import url('https://fonts.googleapis.com/css2?family=Abel&family=Abril+Fatface&family=Acme&family=Anton&family=Baloo+Bhai+2:wght@800&family=Barlow+Condensed:wght@200&family=Combo&family=Cormorant+Garamond&family=Domine:wght@700&family=Josefin+Sans:ital,wght@1,700&family=Knewave&family=Lato:wght@100;400&family=Lexend:wght@200;300;700&family=Libre+Franklin&family=Lilita+One&family=Livvic:wght@500&family=Marck+Script&family=Nunito+Sans:wght@200&family=Open+Sans&family=Pacifico&family=Poppins:wght@200;500;600&family=Proza+Libre&family=Righteous&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&family=Work+Sans&display=swap');
+
+/* lora */
+  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Nunito:wght@200&display=swap');
+
+  /* lato font */
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora:wght@500&family=Nunito:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+:root{
+    --black-color: #1b1b1e;
+    --red-color: #96031a;
+    --yellow-color: #FD9D3E;
+    --white-color: #fbfffe;
+    --yellow-img-bg: #FD9D3E;
+   
+    --logo-font: 'Knewave', cursive;
+    --poppins-font: 'Poppins', sans-serif;
+    --btn-font: 'Lilita One', cursive;
+    /* --lora-font: 'Lora', serif; */
+    --lora-font: 'Nunito', sans-serif 
+    --section-heading:'Roboto', sans-serif;
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 10px;
+    --lato-paragraph-font: 'Lato', sans-serif;
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+h2{
+    font-size: 2.4rem;
+    font-family: var(--section-heading);
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: 'Libre Franklin', sans-serif;;
+}
+
+p{
+    /* font-family: 'Libre Franklin', sans-serif; */
+    /* font-family: var(--lora-font); */
+    font-family: var(--lato-paragraph-font);
+    font-size: 0.4em;
+    /* font-size: 1vmax; */
+    color: var(--white-color);
+    line-height: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+section{
+    width: 100vw;
+}
+
+/*  ****************************Utility Classes*************************************8 */
+.container{
+    max-width: 985px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden;
+}
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.hover-links{
+    color: var(--white-color);
+    padding: 0.625rem 1rem;
+    transition: 0.2s ease-out;
+}
+
+.hover-links:hover{
+    color: var(--red-color);
+    background: var(--yellow-color);
+    padding: 0.625rem 1rem;
+    border-radius: 50px;
+}
+
+.primary-btn{
+    border: 0.5px solid var(--white-color); 
+    border-radius: 50px;
+    font-family: var(--btn-font);
+    font-weight: 700 !important;
+    color: var(--white-color) !important;
+    background-color: transparent;
+    padding: 0.825rem 1rem;
+    transition: 0.2s ease-out;
+}
+
+.primary-btn:hover{
+    color: var(--red-color) !important;
+    background-color: var(--yellow-img-bg);
+    border: 0.5px solid var(--red-color); 
+}
+
+.secondary-btn{
+    border: 0.5px solid var(--red-color); 
+    border-radius: 50px;
+    font-family: var(--btn-font);
+    color: var(--red-color) !important;
+    font-weight: 700 !important;
+    background-color: var(--yellow-img-bg);
+    padding: 0.6em 1em;
+    transition: 0.2s ease-out;
+}
+
+.secondary-btn:hover{
+    border-color: var(--white-color);
+    padding: 0.6em 1em;
+    color: var(--white-color) !important;
+    background-color: transparent;
+}
+
+.sub-heading{
+    font-family: 'Pacifico', cursive;
+    color: var(--yellow-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 1.2%;
+}
+
+/******************************************* Scrollbar styles *********************************/
+::-webkit-scrollbar {
+    width: 15px;
+    height: 6px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--yellow-color);  
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: #f5aa5e;  
+    }
+
+/*************************************** Navbar **************************************************/
+nav{
+    height: 2%;
+}
+.main-nav{
+    padding-block: 1%;
+    padding-left: 2%;
+    background-color: black;
+    height: 2%;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.site-logo{
+    margin-left: 5rem;
+    width: 22vw;
+    gap: 0;
+    padding-block: 0;
+    margin-block: 0;
+}
+
+.site-logo-words{
+    font-family: var(--logo-font);
+    color: var(--yellow-color);
+    width: 11vw;
+    font-size: 2.8vw;
+}
+
+.site-logo-words span{
+    color: var(--white-color);
+}
+
+.pizza-logo-image{
+    width: 5vw;
+    margin-left: 3%;
+}
+
+.logo-image{
+    width: 100%;
+}
+
+.site-logo:hover{
+    text-decoration: none;
+}
+
+.nav-links{
+    color: var(--white-color);
+    font-family: 'Libre Franklin', sans-serif;;
+    flex-basis: 730px;
+    padding-right: 4%;
+}
+
+.nav-links ul{
+    justify-content: end;
+    gap: 20px;
+    font-size: 1.22rem;
+}
+
+.nav-toggle{
+    display: none;
+}
+
+/*************************************** Hero section **************************************************/
+.hero{
+    width: 100%;
+    height: 75vh;
+    background-color: black;
+    justify-content: center;
+    gap: 1%;
+    overflow: hidden;
+}
+
+.left-side{
+    flex-basis: 48%;
+    padding-inline: 4%;
+    margin-left: 1%;
+    margin-top: -8%;
+    font-size: 55px;
+}
+
+.right-side{
+    flex-basis: 49%;
+    margin-right: -1px;
+    margin-top: -9%;
+}
+
+.hero-img{
+    width:100%;
+}
+
+.hero-img img{
+    width:100%;
+}
+
+.hero-heading{
+    color: var(--red-color);
+    line-height: 4rem;
+}
+
+.main-word{
+    color: var(--yellow-color);
+    font-family: var(--logo-font);
+}
+
+.hero-content{
+    color: var(--white-color);
+    text-align: left;
+    font-weight: 380;
+}
+
+.cta-buttons{
+    margin-top: 2rem;
+}
+
+.secondary-cta{
+    margin-left: 1rem;
+    padding-block: 1.1rem;
+    padding-inline: 2rem;
+    font-family: var(--btn-font);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.primary-cta{
+    padding-block: 1.1rem;
+    padding-inline: 1.6rem;
+    font-family: var(--btn-font);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.primary-cta:hover{
+    padding-block: 1.1rem;
+    padding-inline: 1.6rem;
+}
+
+/*************************************** Features section **************************************************/
+.top-img,
+.bottom-img{
+    max-width: 100vw;
+}
+
+.order-top{
+    width: 100%;
+    margin-top: -293%;
+}
+
+.features{
+    background-color: var(--yellow-img-bg);
+    flex-direction: column;
+}
+
+.features-sub-heading{
+    color: var(--red-color);
+}
+
+.features-header{
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 8%;
+}
+
+.features-area{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 42px;
+}
+
+.features-card{
+    flex-direction: column;
+    gap: 5px;
+    max-width: 30%;
+    text-align: center;
+    margin-bottom: 8%;
+    font-size: 40px;
+}
+
+.features-card p{
+    color: black;
+    font-family: var(--lato-paragraph-font);
+}
+
+.features-card img{
+    width: 48%;
+}
+
+.recipe-image{
+    width: 40% !important;
+}
+
+.bottom-order{
+    width: 100%;
+    margin-bottom: -8%;
+}
+
+/*************************************** Menu section **************************************************/
+.menu{
+    margin-top: 12%;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-header{
+    text-align: center;
+}
+
+.menu-top{
+    max-width:  100vw;
+}
+
+.menu-top-img{
+    width: 100%;
+}
+
+.menu-area{
+    flex-direction: column;
+    margin-top: 4em;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.menu-row{
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.menu-card{
+    flex-direction: column;
+    margin-bottom: 4em;
+    margin-inline: 1em;
+}
+
+.menu-image{
+    width: 65%;
+}
+
+.menu-image img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.menu-desc{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 0.5em;
+    font-family: var(--poppins-font);
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.menu-desc p{
+    color: black;
+}
+
+.price-tag{
+    color: gray !important;
+}
+
+.menu-btn{
+    border: 0.5px solid var(--red-color); 
+    border-radius: 50px;
+    font-family: var(--btn-font);
+    font-size: 0.99rem;
+    color: var(--red-color) !important;
+    background-color: var(--yellow-img-bg);
+    padding: 1.2em;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.menu-btn:hover{
+    border-color: var(--red-color) !important;
+    color: var(--red-color) !important;
+    background-color: transparent;
+}
+
+.landing-menu-btn{
+    border: 0.5px solid var(--red-color); 
+    border-radius: 50px;
+    font-family: var(--btn-font);
+    font-size: 0.99rem;
+    color: var(--red-color) !important;
+    background-color: var(--yellow-img-bg);
+    padding: 1.2em;
+    cursor: pointer;
+    transition: 0.2s ease-out;
+}
+
+.landing-menu-btn:hover{
+    border-color: var(--red-color) !important;
+    color: var(--red-color) !important;
+    background-color: transparent;
+}
+
+/*************************************** about section **************************************************/
+.about-section{
+    margin-top: -5%;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20%;
+    margin-bottom: -2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-header{
+    margin-top: 8% !important;
+    margin-bottom: 5%;
+}
+
+.about-section h2{
+    margin-top: 12%;
+}
+
+.about-us{
+    flex-direction: row;
+    gap: 5%;
+    margin-top: 2%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-pic-container{
+    width: 50%;
+}
+
+.about-content{
+    width: 50%;
+    font-size: 24px;
+}
+
+.about-pic{
+    width: 100%;
+}
+
+.about-content p{
+    color: black;
+    font-size: 0.6em;
+    font-family: var(--lato-paragraph-font);
+    font-weight: 400;
+}
+
+/*************************************** Testimonial section **************************************************/
+.client-review{
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black-color);
+    flex-direction: column;
+}
+
+.test-header{
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+
+.test-header h2{
+    color: white;
+}
+
+.testimonial{
+    max-width: 65%;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    row-gap: 30px;
+    padding-inline: auto;
+    padding: 50px 0;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.testimonial .image{
+    height: 60%;
+    width: 18%;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.testimonial .slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.slide p{
+    text-align: center;
+    padding: 0 100px;
+    margin-top: 2.3em;
+    margin-bottom: 1.8em;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    font-family: var(--lato-paragraph-font);
+}
+
+.slide .quote-icon{
+    font-size: 30px;
+    color: var(--yellow-color);
+}
+
+.slide .customer-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer-details .customer-name{
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Swiper button css */
+.nav-btn{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transform: translateY(30px);
+    background-color: var(--yellow-color);
+    transition: 0.2s;
+}
+
+.nav-btn:hover{
+background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-btn::after,
+.nav-btn::before{
+    font-size: 20px;
+    color: #fff;
+}
+
+.swiper-pagination-bullet{
+    background-color: black;
+
+}
+
+.swiper-pagination-bullet-active{
+    background-color: orange;
+}
+
+/* Media query */
+@media screen and (max-width:768px){
+
+    .slide p{
+        padding: 0 20px;
+    }
+    .nav-btn{
+        display: none;
+    }
+    
+}
+
+/*************************************** Footer **************************************************/
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    margin-top: -18%;
+    color: #fff;
+    background-color: #25242a;
+}
+
+.footer > *{
+    flex: 1 100%;
+}
+
+.test-top-image{
+    width: 70%;
+    margin-top: -4%;
+}
+
+.black-top-img{
+    width: 120%;
+    margin-left: -16%;
+}
+
+.left-area{
+    margin-top: 8em;
+}
+
+.footer-bottom img{
+    width: 15%;
+}
+
+footer h2{
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--yellow-color);
+    letter-spacing: 3px;
+}
+
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li{
+    line-height: 2em;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+.right-area{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 8em;
+}
+
+.right-area > *{
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+.box a{
+    color: #999;
+}
+
+.footer-bottom{
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+    font-size: 1.8em;
+}
+
+.left-area p{
+    padding-right: 20%;
+    color: #999;
+}
+
+.socials{
+    margin-top: 2.2em;
+}
+
+.socials a{
+    background: var(--yellow-color);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.socials a i{
+    color: #e7f2f4;
+    padding: 10px 12px;
+    font-size: 20px;
+}
+
+.btn{
+    border: none;
+    background: var(--yellow-color);
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 1.5em;
+}
+
+.search-box input{
+    height: 36px;
+}
+
+@media screen and (min-width: 600px){
+    .right-area > *{
+        flex: 1;
+    }
+
+    .left-area{
+        flex: 1 0px;
+    }
+
+    .right-area{
+        flex: 2 0px;
+    }
+}
+
+@media screen  and (max-width:600px ) {
+    .footer{
+        padding: 15px;
+    }
+
+    .landing-menu-container{
+        width: 100% !important;
+        margin-inline: 2%;
+    }
+
+    .menu-image{
+        width: 82% !important;
+    }
+}
+
+/*************************************** Menu page Header Section **************************************************/
+.menu-link:hover{
+    text-decoration: none;
+}
+
+.logo-tron:hover{
+    color: var(--white-color);
+}
+
+.header{
+    height: 55vw;
+    width: 100%;
+    margin-top: -10%;
+    margin-bottom: -20%;
+}
+
+.header-2 {
+    width: 100%;
+    position: relative;
+    height: 60%; 
+    margin-top: -4%;
+}
+
+.header2-img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%; 
+    width: 100%;
+    height: auto;
+}
+
+.header-2::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5; 
+    pointer-events: none;
+}
+
+.menu-heading{
+    margin-top: 10%;
+}
+
+.menu-tabs{
+    margin-top: 30% !important;
+}
+
+.menu-tab{
+    color: var(--black-color);
+    font-size: 1.3em;
+}
+
+.menu-tab:hover{
+    color: var(--red-color);
+}
+
+.menu-tabs .nav-link.active {
+    color: var(--red-color);
+}
+
+/* .menu-link{
+    width: 4vmax;
+} */
+
+.menu-footer{
+    margin-top: -18% !important;
+}
+
+.menu-tab-container{
+    max-width: 458px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden;
+}
+
+.menu-container{
+    max-width: 70vmax;
+}
+
+.beverages-row2-container{
+    max-width: 40vmax;
+}
+
+.menu-btn{
+    padding: 0.625rem 1rem !important;
+    transition: 0.2s ease-out;
+}
+
+.menu-btn:hover{
+    color: var(--red-color) !important;
+    background-color: transparent;
+    border-color: var(--red-color); 
+}
+/*************************************** Menu page pizza menu **************************************************/
+.main-menu{
+    margin-bottom: 22%;
+    margin-top: 5% !important;
+}
+
+/*************************************** Menu page burger menu **************************************************/
+.burger-menu{
+    margin-top: 5%;
+    margin-bottom: 22%;
+}
+
+/*************************************** Menu page Pasta menu **************************************************/
+.pasta-menu{
+    margin-top: 5%;
+    margin-bottom: 22%;
+}
+
+/*************************************** Menu page beverages menu **************************************************/
+.beverages-menu{
+    margin-top: 5%;
+    margin-bottom: 22%;
+}
+
+
+
+/*************************************** Map API **************************************************/
+#map{
+    width: 100%;
+}
+
+.tabs{
+    margin-left: 20px;
+}
+
+.nav-underline{
+    color: #f5aa5e;
+}
+
+/************************************* Contact Us Form *******************************/
+.contact-form{
+    margin-top: 3%;
+}
+
+.contact-footer{
+    margin-top: 15% !important;
+}
+
+.contact-form{
+    margin-inline: auto !important;
+    margin-bottom: -10% !important;
+}
+
+.contact-btn{
+    border: 0.5px solid var(--white-color); 
+    border-radius: 50px;
+    border: 0.5px solid var(--red-color); 
+    font-family: var(--btn-font);
+    font-weight: 700 !important;
+    color: var(--red-color) !important;
+    background-color: var(--yellow-color);
+    padding: 0.7rem 2rem;
+    transition: 0.2s ease-out;
+} 
+
+.contact-btn:hover{
+    background-color: var(--white-color);
+} 
+
+.contact-heading{
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+ 
+.contact-input{
+    border: 2px solid var(--yellow-color);
+}
+
+.contact-input:focus{
+    border-color: var(--yellow-color);
+    box-shadow: 0 0 0 0.2rem #febf81;
+}
+
+
+
+

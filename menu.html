@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizzatron | Menu</title>
+  <!--****************************************** Bootstrap CDN Link *************************************************************-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!--****************************************** Stylesheet Link *************************************************************-->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--********************************** Boxicons css ************************-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <link rel="shortcut icon" href="pizza-logo.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <!--************************************* Navbar *******************************-->
+  <nav>
+    <div class="main-nav flex">
+
+      <div class="site-logo flex">
+        <div class="site-logo-words">
+          Pizza<span>tron</span>
+        </div>
+
+        <div class="pizza-logo-image">
+          <img class='logo-image' src="pizza-logo-removebg-preview.png" alt="">
+        </div>
+      </div>
+
+      <div class="nav-links" id="nav-links">
+        <ul class="flex">
+          <li><a href="index.html" class="hover-links menu-link">Home</a></li>
+          <li><a href="menu.html" class="hover-links menu-link">Menu</a></li>
+          <li><a href="contact.html" class="hover-links menu-link">Contact Us</a></li>
+
+          <li><a href="signup.html" class="hover-links secondary-btn menu-link">Sign In</a></li>
+
+        </ul>
+      </div>
+      <a href="#" class="nav-toggle hover-links" id="nav-toggle"><i class="fa-solid fa-bars"></i></a>
+    </div>
+  </nav>
+
+  <!--********************************************** Header Section ****************************-->
+  <section class="header flex">
+    <div class="header-2">
+      <img src="header-2.jpg" alt="" class="header2-img">
+    </div>
+
+  </section>
+
+  <!--********************************************** Main Heading Section ****************************-->
+  <section class="menu-heading">
+    <div class="menu-header">
+      <h2>Our Menu</h2>
+      <p class="sub-heading">~ Know What we Offer ~</p>
+    </div>
+  </section>
+
+  <!--********************************************** Nav Tabs ****************************-->
+  <div class="menu-tab-container">
+    <ul class="nav nav-tabs menu-tabs">
+      <li class="nav-item menu-link">
+        <a class="nav-link active menu-tab" href="#pizza" data-toggle="tab">Pizza</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link menu-tab" href="#burger" data-toggle="tab">Burger</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link menu-tab" href="#pasta" data-toggle="tab">Pasta</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link menu-tab" href="#beverage" data-toggle="tab">Beverage</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="tab-content">
+    <!--********************************************** Pizza Menu Section ****************************-->
+    <div class="tab-pane show active" id="pizza">
+      <div class="menu pasta-menu flex">
+        <div class="container menu-container">
+          <div class="menu-header">
+            <h2>Pizzas</h2>
+            <p class="sub-heading">Check our Cheesy Delicious Pizzas</p>
+          </div>
+
+          <div class="menu-area flex ">
+            <div class="menu-row-1 menu-row flex menu-row-menupage">
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/pizza2.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Greenish Chicken Pizza</p>
+                  <p class="price-tag">Rs. 250</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                  <!-- <button class="menu-btn">Add To Cart</button> -->
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/small-mushroom-pizza.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Small Mushroom Pizza</p>
+                  <p class="price-tag">Rs. 500</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/mushroom-pizza.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Delicate Mushroom Pizza</p>
+                  <p class="price-tag">Rs. 950</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/pineapple-toppings-pizza.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Pineapple Toppings Pizza</p>
+                  <p class="price-tag">Rs. 950</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/spicy-veg.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Extra Spicy Veg Pizza</p>
+                  <p class="price-tag">Rs. 950</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div class="menu-row-2 menu-row flex menu-row-menupage">
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/corn-pizza.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Chunky Corn Pizza</p>
+                  <p class="price-tag">Rs. 450</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/meaty-toppings.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Fluffy Pizza with Meaty Toppings</p>
+                  <p class="price-tag">Rs. 530</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/bbq-pizza.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Fiery BBQ Pizza</p>
+                  <p class="price-tag">Rs. 600</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/italian-pizza.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Italian Style Pizza</p>
+                  <p class="price-tag">Rs. 650</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/eggs-toppings.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Boiled Egss Topping Pizza</p>
+                  <p class="price-tag">Rs. 950</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+
+            </div>
+
+
+            <div class="menu-row-3 menu-row flex menu-row-menupage">
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/mozarella-pizza (1).jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Saucy Mozarella Pizza</p>
+                  <p class="price-tag">Rs. 550</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/spaghetti-pizza.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Spaghetti Pizza</p>
+                  <p class="price-tag">Rs. 200</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/veg-pizza.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Spicy Veg Pizza</p>
+                  <p class="price-tag">Rs. 440</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/onions-topping.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Onions Toppings Pizza</p>
+                  <p class="price-tag">Rs. 950</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/extra-cheesy.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Extra Cheesy Pizza</p>
+                  <p class="price-tag">Rs. 950</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--********************************************** Burger Menu Section ****************************-->
+    <div class="tab-pane" id="burger">
+      <div class="menu pasta-menu flex">
+        <div class="container ">
+          <div class="menu-header">
+            <h2>Burgers</h2>
+            <p class="sub-heading">Check Our Juicy Tasty Burgers</p>
+          </div>
+
+          <div class="menu-area flex ">
+            <div class="menu-row-1 menu-row menu-row-menupage flex">
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/crispy chicken burger.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Crispy Chicken Burger</p>
+                  <p class="price-tag">Rs. 250</p>
+                  <button class="secondary-btn primary-cta menu-btn" onClick="replaceMenu()">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/burger.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Cheesy Beef Burger</p>
+                  <p class="price-tag">Rs. 500</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/grand cheesy burger.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Grand Cheesy Burger</p>
+                  <p class="price-tag">Rs. 950</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--********************************************** Pasta Menu Section ****************************-->
+    <div class="tab-pane" id="pasta">
+      <div class="menu pasta-menu flex">
+        <div class="container menu-container">
+          <div class="menu-header">
+            <h2>Pastas</h2>
+            <p class="sub-heading">Check Our Mouthwatering Pastas</p>
+          </div>
+
+          <div class="menu-area flex ">
+            <div class="menu-row-1 menu-row menu-row-menupage flex">
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/pasta.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Sizzling Tomato Pasta</p>
+                  <p class="price-tag">Rs. 250</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/spicy-spaghetti.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Spicy Spaghetti</p>
+                  <p class="price-tag">Rs. 500</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/white-sauce-pasta.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>White Sauce Pasta</p>
+                  <p class="price-tag">Rs. 950</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/cheesy-meaty-macaroni.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Cheesy Meaty Macaroni</p>
+                  <p class="price-tag">Rs. 950</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/cheesy-mushroom-pasta.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Cheesy Mushroom Pasta</p>
+                  <p class="price-tag">Rs. 950</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--********************************************** Beverages Menu Section ****************************-->
+    <div class="tab-pane" id="beverage">
+      <div class="menu pasta-menu flex">
+        <div class="container menu-container">
+          <div class="menu-header">
+            <h2>Beverages</h2>
+            <p class="sub-heading">Check Our Refreshing Pleasant Drinks</p>
+          </div>
+
+          <div class="menu-area flex ">
+            <div class="menu-row-1 menu-row menu-row-menupage flex">
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/orange-juice.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Fresh Orange Juice</p>
+                  <p class="price-tag">Rs. 100</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/green-lemonade.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Special Green Lemonade</p>
+                  <p class="price-tag">Rs. 120</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/smokey-coke.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Special Smokey Coke</p>
+                  <p class="price-tag">Rs. 350</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/Cucumber-drink.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Energetic Cucumber Drink</p>
+                  <p class="price-tag">Rs. 150</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/Craneberry-juice.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Fresh Craneberry Dose</p>
+                  <p class="price-tag">Rs. 250</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="menu-row-2 menu-row flex beverages-row2-container menu-row-menupage">
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/rose-drink.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Fruity Rose Drink</p>
+                  <p class="price-tag">Rs. 150</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/lemon-juice.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Regular Lemon Juice</p>
+                  <p class="price-tag">Rs. 100</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+              <div class="menu-card-1 menu-card flex">
+                <div class="menu-image">
+                  <img src="menu-images/red-juice.jpg" alt="">
+                </div>
+                <div class="menu-desc flex">
+                  <p>Spanish Red Juice</p>
+                  <p class="price-tag">Rs. 300</p>
+                  <button class="secondary-btn primary-cta menu-btn">Order Now</button>
+                </div>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ************************************************* Footer Section ************************-->
+    <footer class="footer menu-footer">
+      <div class="test-top-image"><img class="black-top-img" src="menu-top-bg.png" alt=""></div>
+      <div class="left-area">
+        <h2>Contact</h2>
+        <ul class="box">
+          <li>Gulshan Road</li>
+          <li>City Road</li>
+          <li>www.pizzatron.com</li>
+          <li>+92 83724896</li>
+        </ul>
+      </div>
+
+      <ul class="right-area">
+        <li class="link-area">
+          <h2>Link</h2>
+          <ul class="box h-box">
+            <li><a href="#">Address</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="#">Policies</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <h2>New Dishes</h2>
+          <ul class="box">
+            <li><a href="#">Corn Pizza</a></li>
+            <li><a href="#">Beef Burger</a></li>
+            <li><a href="#">Tomato Sauce Pasta</a></li>
+            <li><a href="#">Spicy Spaghetti</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <h2>Newsletter</h2>
+          <form action="" class="form-search">
+            <div class="search-box">
+              <input type="email" name="" id="">
+              <button class="btn" type="submit">Subscribe</button>
+            </div>
+          </form>
+
+          <div class="socials">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </li>
+      </ul>
+
+      <div class="footer-bottom">
+        <img src="pizza-logo-removebg-preview.png" alt="">
+        <p>All Rights Reserved By &copy; Pizzatron</p>
+      </div>
+
+    </footer>
+
+    <!-- ************************************************* Bootstrap JS CDN Link ************************-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+
+    <!-- ************************************************* JS File Link ************************-->
+    <script src="main.js"></script>
+    <script>
+      const toggleButton = document.getElementById('nav-toggle');
+      const navLinks = document.getElementById('nav-links');
+
+      toggleButton.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+      })
+    </script>
+</body>
+
+</html>
