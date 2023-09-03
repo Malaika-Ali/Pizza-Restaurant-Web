@@ -1,2 +1,2 @@
 # Pizza-Restaurant-Web
-It's the frontend of a hypothetical Pizza restaurant website for ordering food items online.
+This repository contains code of the frontend of a hypothetical Pizza restaurant's website. This is an amzing project for beginners who want to practice their frontend skills.
